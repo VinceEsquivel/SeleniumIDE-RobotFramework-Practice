@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.1 on win32)" generated="20211213 21:22:58.014" rpa="false" schemaversion="2">
+<suite id="s1" name="Tests" source="C:\Users\vince\Desktop\sweng\tests">
+<suite id="s1-s1" name="Successful-user-log-in" source="C:\Users\vince\Desktop\sweng\tests\Successful-user-log-in.robot">
+<test id="s1-s1-t1" name="Successful user log in">
+<kw name="Open Browser">
+<arg>https://www.saucedemo.com/</arg>
+<arg>Chrome</arg>
+<msg timestamp="20211213 21:22:58.059" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20211213 21:22:58.059" endtime="20211213 21:22:58.059"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20211213 21:22:58.061" endtime="20211213 21:22:58.061"/>
+</kw>
+<kw name="Page Should Contain Element">
+<arg>login-button</arg>
+<status status="NOT RUN" starttime="20211213 21:22:58.063" endtime="20211213 21:22:58.063"/>
+</kw>
+<kw name="Input Text">
+<arg>user-name</arg>
+<arg>standard_user</arg>
+<status status="NOT RUN" starttime="20211213 21:22:58.064" endtime="20211213 21:22:58.064"/>
+</kw>
+<kw name="Input Password">
+<arg>password</arg>
+<arg>secret_sauce</arg>
+<status status="NOT RUN" starttime="20211213 21:22:58.066" endtime="20211213 21:22:58.066"/>
+</kw>
+<kw name="Click Button">
+<arg>login-button</arg>
+<status status="NOT RUN" starttime="20211213 21:22:58.068" endtime="20211213 21:22:58.068"/>
+</kw>
+<kw name="Element Text Should Be">
+<arg>class:title</arg>
+<arg>PRODUCTS</arg>
+<status status="NOT RUN" starttime="20211213 21:22:58.070" endtime="20211213 21:22:58.070"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20211213 21:22:58.072" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20211213 21:22:58.072" endtime="20211213 21:22:58.072">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20211213 21:22:58.057" endtime="20211213 21:22:58.072">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>Successful user log in
+</doc>
+<status status="FAIL" starttime="20211213 21:22:58.047" endtime="20211213 21:22:58.075"/>
+</suite>
+<status status="FAIL" starttime="20211213 21:22:58.015" endtime="20211213 21:22:58.078"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Successful-user-log-in">Tests.Successful-user-log-in</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211213 21:22:58.052" level="ERROR">Error in file 'C:\Users\vince\Desktop\sweng\tests\Successful-user-log-in.robot' on line 4: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\vince\AppData\Local\Programs\Python\Python310\Scripts\robot.exe
+  C:\Users\vince\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\vince\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\vince\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\vince\AppData\Local\Programs\Python\Python310
+  C:\Users\vince\AppData\Local\Programs\Python\Python310\lib\site-packages</msg>
+</errors>
+</robot>
